@@ -2,8 +2,15 @@
   "name": "fail-on-git-dirty",
   "version": "1.0.2",
   "description": "Fails if git status is dirty.",
-  "main": "failOnGitDirty.js",
+  "main": "./failOnGitDirty.js",
+  "bin": {
+    "fail-on-git-dirty": "./failOnGitDirty.js"
+  },
+  "files": [
+    "failOnGitDirty.js"
+  ],
   "scripts": {
+    "asdf": "fail-on-git-dirty",
     "preDeploy": "node failOnGitDirty.js",
     "deployPatch": "npm run preDeploy && npm version patch && npm publish"
   },
@@ -17,8 +24,5 @@
   "bugs": {
     "url": "https://github.com/surajs02/fail-on-git-dirty/issues"
   },
-  "homepage": "https://github.com/surajs02/fail-on-git-dirty#readme",
-  "bin": {
-    "fail-on-git-dirty": "./failOnGitDirty.js"
-  }
+  "homepage": "https://github.com/surajs02/fail-on-git-dirty#readme"
 }
