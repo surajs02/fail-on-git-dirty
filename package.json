@@ -1,6 +1,6 @@
 {
   "name": "fail-on-git-dirty",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fails if git status is dirty.",
   "main": "failOnGitDirty.js",
   "scripts": {
