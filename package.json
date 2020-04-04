@@ -1,12 +1,11 @@
 {
   "name": "fail-on-git-dirty",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fails if git status is dirty.",
   "main": "failOnGitDirty.js",
   "scripts": {
     "preDeploy": "node failOnGitDirty.js",
     "deployPatch": "npm run preDeploy && npm version patch && npm publish"
-
   },
   "repository": {
     "type": "git",
