@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/surajs02/fail-on-git-dirty/issues"
   },
-  "homepage": "https://github.com/surajs02/fail-on-git-dirty#readme"
+  "homepage": "https://github.com/surajs02/fail-on-git-dirty#readme",
+  "bin": {
+    "fail-on-git-dirty": "./failOnGitDirty.js"
+  }
 }
