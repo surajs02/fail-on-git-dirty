@@ -20,7 +20,7 @@ npm install -g fail-on-git-dirty
 ## Usage
 
 Best used in `package.json` deploy scripts:
-```json
+```js
 {
     // ...
     "scripts": [
