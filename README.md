@@ -24,7 +24,7 @@ Best used in `package.json` deploy scripts:
 {
     // ...
     "scripts": [
-        // Ensure `node deploy.js` only runs if git status is clean.
+        // Ensures `node deploy.js` only runs if git status is clean.
         "deploy": "fail-on-git-dirty && node deploy.js"
     ]
 }
