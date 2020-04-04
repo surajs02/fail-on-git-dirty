@@ -1,0 +1,22 @@
+{
+  "name": "fail-on-git-dirty",
+  "version": "1.0.0",
+  "description": "Fails if git status is dirty.",
+  "main": "failOnGitDirty.js",
+  "scripts": {
+    "preDeploy": "node failOnGitDirty.js",
+    "deployPatch": "npm run preDeploy && npm version patch && npm publish"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajs02/fail-on-git-dirty.git"
+  },
+  "keywords": [],
+  "author": "Suraj Sharma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surajs02/fail-on-git-dirty/issues"
+  },
+  "homepage": "https://github.com/surajs02/fail-on-git-dirty#readme"
+}
